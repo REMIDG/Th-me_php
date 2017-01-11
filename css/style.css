@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.theme{
+  background-color: green;
+  font-family: sans-serif;
+}
+
+.theme a{
+  color: white !important;
+  font-family: sans-serif;
+}
+
+.themeNikita{
+  background-color: blue !important;
+  font-family: fantasy;
+}
+
+.themeNikita a{
+  color: white !important;
+  font-family: fantasy;
+}
+
+.themeLara{
+  background-color: brown !important;
+  font-family: cursive;
+}
+
+.themeLara a{
+  color: white !important;
+  font-family: cursive;
+}
+
+.themeDjango{
+  background-color: gray !important;
+  font-family: monospace;
+}
+
+.themeDjango a{
+  color: white !important;
+  font-family: monospace;
+}
+
+
+/******************************************************************************/
+/***** NAVBAR *****************************************************************/
+/******************************************************************************/
+.navbar {
+  /*background-color: green;*/
+  border: 0px;
+}
+
+.navbar a{
+  /*color: white !important;*/
+  font-weight: bold;
+}
+
+.profilPhoto{
+  width: 100px; height: 100px;
+  border: 2px solid green;
+  opacity: 0.95;
+  border-radius: 50% 50% 50% 50%;
+  top: 2%;
+  left: 1%;
+  /*background-image: url("../img/avatar.png");
+  background-size: cover;
+  background-position: center 50%;*/
+}
+
+.profilNikita{
+  width: 100px; height: 100px;
+  border: 2px solid blue;
+  opacity: 0.95;
+  border-radius: 50% 50% 50% 50%;
+  top: 2%;
+  left: 1%;
+  /*background-image: url("../img/profil2.jpg");
+  background-size: cover;
+  background-position: center 50%;*/
+}
+
+.profilLara{
+  width: 100px; height: 100px;
+  border: 2px solid brown;
+  opacity: 0.95;
+  border-radius: 50% 50% 50% 50%;
+  top: 2%;
+  left: 1%;
+  /*background-image: url("../img/profil1.jpg");
+  background-size: cover;
+  background-position: center 50%;*/
+}
+
+.profilDjango{
+  width: 100px; height: 100px;
+  border: 2px solid gray;
+  opacity: 0.95;
+  border-radius: 50% 50% 50% 50%;
+  top: 2%;
+  left: 1%;
+  /*background-image: url("../img/profil3.jpg");
+  background-size: cover;
+  background-position: center 50%;*/
+}
+
+.dropdown-menu li a{
+  color: black !important;
+}
+
+.dropdown a:hover{
+  color: white !important;
+  background-color: green !important;
+}
+
+/******************************************************************************/
+/***** HEADER *****************************************************************/
+/******************************************************************************/
+.backGHeader{
+  height: 800px;
+  background-image: url("../img/voyages.jpg");
+  background-size: cover;
+  background-position:
+}
+
+.titre{
+  margin-top: 5%;
+  padding: 1% 0% 1% 1%;
+  font-size: 4em;
+  background-color: white;
+  color: black;
+  opacity: 0.75;
+  box-shadow: 5px 5px 5px 15px white;
+  transform: rotate(-26deg);
+}
+
+
+/******************************************************************************/
+/***** PRESENTATION ***********************************************************/
+/******************************************************************************/
+.presentation{
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  background-color: green;
+  opacity: 0.85;
+  text-align: center;
+}
+
+.textAlignLast{
+  margin-top: 3%;
+  padding-bottom: 5%;
+  text-align: justify;
+  text-align-last: center;
+}
+
+/******************************************************************************/
+/***** FOOTER *****************************************************************/
+/******************************************************************************/
+.debutFooter{
+  padding-top: 30px;
+}
+
+footer{
+  background: black ;
+  opacity: 0.85;
+  color: white;
+}
+
+.social li {
+   background: none repeat scroll 0 0 #B5B5B5 ;
+   border: 2px solid #B5B5B5 ;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -o-border-radius: 50%;
+   -ms-border-radius: 50%;
+   border-radius: 50%;
+   display: inline-block;
+   height: 36px;
+   line-height: 36px;
+   margin: 0 10px 0 10px;
+   padding: 0;
+   text-align: center;
+   width: 36px;
+   transition: all 0.5s ease 0s;
+   -moz-transition: all 0.5s ease 0s;
+   -webkit-transition: all 0.5s ease 0s;
+   -ms-transition: all 0.5s ease 0s;
+   -o-transition: all 0.5s ease 0s;
+   list-style-type: none;
+
+}
+
+.social li:hover {
+  transform: scale(1.15) rotate(360deg);
+  -webkit-transform: scale(1.1) rotate(360deg);
+  -moz-transform: scale(1.1) rotate(360deg);
+  -ms-transform: scale(1.1) rotate(360deg);
+  -o-transform: scale(1.1) rotate(360deg);
+}
+
+.social li a {
+  color: #EDEFF1 ;
+}
+
+.social li:hover {
+  border: 2px solid #2c3e50 ;
+  background: #2c3e50 ;
+}
+
+.social li a i {
+ font-size: 16px;
+ margin: 0 0 0 5px;
+ color: #EDEFF1  !important;
+
+}
+
+.finFooter{
+padding-bottom: 30px;
+}
